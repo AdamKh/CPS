@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #D9FFF5;
+    padding: 16px;
+}
+
+.header__item {
+    margin: auto;
+    margin-left: 16px;
+}
+
+.header__item:first-child {
+    margin-left: 0;
+}
+
+.header__repair_icon {
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.header__right::before {
+    content: '';
+    display: inline-block;
+    height: 32px;
+    width: 2px;
+    background-color:#EAEAEA;
+    margin: auto;
+}
