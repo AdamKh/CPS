@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +8,40 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__left">
-            <img class="header__burger_icon header__item icon" src="img/icons/burger.svg" alt="Раскрывающееся меню">
-            <img class="header__logo header__item" src="img/icons/logo.svg" alt="Логотип CPS">
-        </div>
-        <div class="header__right">
-            <img class="header__repair_icon header__item icon" src="img/icons/repair.svg" alt="Оставить заявку">
-            <img class="header__checkstatus_icon header__item icon" src="img/icons/checkstatus.svg" alt="Статус ремонта">
+        <div class="header__container">
+            <div class="header__left">
+                <img src="img/icons/burger.svg" alt="Раскрывающееся меню" class="header__item">
+                <img src="img/icons/logo.svg" alt="Логотип CPS" class="header__item header__logo">
+            </div>
+            <div class="header__right">
+                <img class="header__item" src="img/icons/repair.svg" alt="Оставить заявку">
+                <img class="header__item" src="img/icons/checkstatus.svg" alt="Статус ремонта">
+            </div>
         </div>
     </header>
     <main class="main">
-        <div class="main__header">
-            <h1>Услуги и сервисы</h1>
+        <h1 class="main__title">Услуги и сервисы</h1>
+        <div class="slide_menu">
+            <a href="#" class="slide_menu__link slide_menu__link--active link">Ремонтируемые бренды</a>
+            <a href="#" class="slide_menu__link link">Ремонтируемые устройства</a>
+            <a href="#" class="slide_menu__link link">Цены на услуги</a>
+            <a href="#" class="slide_menu__link link">Адреса сервисных центров</a>
+            <a href="#" class="slide_menu__link link">Специальные цены</a>
+        </div>
+        <div class="block">
+            <div class="container">
+                <p class="block__text">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                    Только у нас вы можете отремонтировать свой ноутбук Dell 
+                    с официальной гарантией производителя.
+                </p>
+            </div>
+            <div class="block__link container">
+                <a href="#" class="link__read_more link">
+                    <img src="/img/expand.svg" alt="Стрелка" class="link__logo">Читать далее
+                </a>
+            </div>
+            <img src="/img/cps_img.jpg" alt="Картинка CPS" class="block__cps_img">
         </div>
     </main>
 </body>
