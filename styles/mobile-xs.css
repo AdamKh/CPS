@@ -130,6 +130,7 @@ body {
 
 .slide_menu__link--active {
     border: 2px solid #B8FFEC;
+    background-color: #fff;
     border-radius: 6px;
 }
 
