@@ -193,7 +193,9 @@ body {
     }
 
 
-
+    .main__title::before {
+        margin-right: 24px;
+    }
 
     .block {
         display: flex;
@@ -232,6 +234,9 @@ body {
         max-width: 1120px;
     }
 
+    .container {
+        margin: 0 30px;
+    }
 
     .main {
         padding: 40px 30px;
@@ -258,6 +263,10 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .main__title::before {
+        margin-right: 28px;
     }
 
     .main__header_links {
