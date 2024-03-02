@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/mobile-xs.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>CPS_V1.0</title>
 </head>
 <body>
@@ -29,19 +29,21 @@
             <a href="#" class="slide_menu__link link">Специальные цены</a>
         </div>
         <div class="block">
-            <div class="container">
+            <div class="block__container--flex--left container">
                 <p class="block__text">
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
                     Только у нас вы можете отремонтировать свой ноутбук Dell 
                     с официальной гарантией производителя.
                 </p>
+                <div class="block__link">
+                    <a href="#" class="link__read_more link">
+                        <img src="img/expand.svg" alt="Стрелка" class="link__logo">Читать далее
+                    </a>
+                </div>
             </div>
-            <div class="block__link container">
-                <a href="#" class="link__read_more link">
-                    <img src="img/expand.svg" alt="Стрелка" class="link__logo">Читать далее
-                </a>
+            <div class="block__container--flex--right">
+                <img src="img/cps_img.jpg" alt="Картинка CPS" class="block__cps_img">
             </div>
-            <img src="img/cps_img.jpg" alt="Картинка CPS" class="block__cps_img">
         </div>
     </main>
 </body>
