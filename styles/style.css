@@ -80,10 +80,6 @@ body {
     text-decoration: none;
 }
 
-.container {
-    margin: 0 16px;
-}
-
 [class$="--align_items--center"] {
     display: flex;
     align-items: center;
@@ -147,7 +143,7 @@ body {
     content: '';
     display: inline-block;
     height: 40px;
-    margin-right: 16px;
+    margin-right: 18px;
     margin-left: -2px;
     border-right: 4px solid #41F6D7;
     border-radius: 2px;
@@ -184,13 +180,12 @@ body {
     border-radius: 6px;
 }
 
-.block {
-    margin-top: 24px;
-    margin-bottom: 35px;
-}
-
 .block__text {
     font-size: 14px;
+}
+
+.block__left_container {
+    padding: 0 16px;
 }
 
 .link__read_more {
@@ -214,15 +209,12 @@ body {
 
 @media screen and (min-width: 768px) {
 
-
-    .container {
-        margin: 0 25px;
-    }
-    
-
-
     .header__container {
         padding: 25px;
+    }
+
+    .item_tablet {
+        display: block;
     }
 
     .header__left .header__item--vertica-line--left::before {
@@ -235,33 +227,37 @@ body {
         margin-right: 16px;
     }
 
+    .header__right .header__wrapper {
+        display: flex;
+    }
+
 
     .main__title::before {
+        margin-right: 22px;
+    }
+
+    .slide_menu__link:first-child {
+        margin-left: 24px;
+    }
+
+    .slide_menu__link:last-child {
         margin-right: 24px;
     }
 
     .block {
         display: flex;
+        gap: 35px;
+        padding: 0 24px;
     }
-
-    .header__right .header__wrapper {
-        display: flex;
-    }
-
-    .item_tablet {
-        display: block;
+    .block__left_container {
+        padding: 0;
     }
 
     .block__text.item_tablet {
         margin-top: 25px;
     }
-
-    .block__text.item--width--768 {
-        margin-top: 25px;
-    }
-
+    
     .block__cps_img {
-        margin: 0;
         min-width: 360px;
         border-radius: 5px;
     }
@@ -277,26 +273,18 @@ body {
         max-width: 1120px;
     }
 
-
-    .main {
-        padding: 40px 30px;
-        background-color: #F8F8F8;
-    }
-
-    .block__cps_img {
-        min-width: 520px;
-    }
-
     .item_PC {
         display: block;
     }
 
-    .block__text.item_PC {
-        display: inline;
-    }
-
     .header {
         display: none;
+    }
+
+
+    .main {
+        padding: 40px 30px;
+        background-color: #F8F8F8;
     }
 
     .main__header {
@@ -333,9 +321,19 @@ body {
 
     .slide_menu__link, .slide_menu__link:last-child, .slide_menu__link:first-child {
         margin: 0;
+        flex-grow: 1;
     }
 
     .block {
+        padding: 0;
         margin-top: 24px;
+    }
+
+    .block__cps_img {
+        min-width: 520px;
+    }
+
+    .block__text.item_PC {
+        display: inline;
     }
 }
