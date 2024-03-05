@@ -58,7 +58,7 @@ button {
 
 
 /*  BODY  */
-body {
+body, * {
     font-family: TTLakes;
     color: #1B1C21;
     margin: 0 auto;
@@ -299,20 +299,22 @@ body {
         margin-left: -30px;
     }
 
-    .main__header-links {
+    .main__header-buttons {
         display: flex;
     }
     
-    .main__header-link {
+    .main__header-button {
         display: flex;
         align-items: center;
         color: #000;
+        border: none;
+        font-size: 16px;
         font-weight: bold;
-        margin-left: 32px;
+        margin-left: 30px;
     }
 
-    .main__header-link button {
-        margin-left: 8px;
+    .main__header-button span {
+        margin-right: 10px;
     }
 
 
