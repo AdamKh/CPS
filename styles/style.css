@@ -195,8 +195,9 @@ body {
     margin: 20px 0;
 }
 
-.link__logo {
-    margin-right: 10px;
+.link__read_more::before {
+    content: url(/img/icons/arrow-down.svg);
+    margin-right: 15px;
 }
 
 .block__cps_img {
