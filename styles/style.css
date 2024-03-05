@@ -13,6 +13,11 @@
     font-display: swap;
 }
 
+button {
+    cursor: pointer;
+}
+
+
 body {
     font-family: TTLakes;
     color: #1B1C21;
@@ -33,6 +38,16 @@ body {
 
 .container {
     margin: 0 16px;
+}
+
+.icon {
+    background-color: #FF3E79;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 [class$="--align_items--center"] {
@@ -57,6 +72,30 @@ body {
 
 .header__item {
     margin-left: 16px;
+}
+
+.header__burger {
+    background-image: url(/img/icons/burger.svg);
+}
+
+.header__contacts {
+    background-image: url(/img/icons/contacts.svg);
+}
+
+.header__chat {
+    background-image: url(/img/icons/chat.svg);
+}
+
+.header__profile {
+    background-image: url(/img/icons/profile.svg);
+}
+
+.header__repair {
+    background-image: url(/img//icons/repair.svg);
+}
+
+.header__checkstatus {
+    background-image: url(/img/icons/checkstatus.svg);
 }
 
 .header__item:first-child {
