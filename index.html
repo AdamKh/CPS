@@ -10,20 +10,20 @@
 
     <header class="header">
         <div class="header__container">
-            <div class="header__left header__left--align_items--center">
+            <div class="header__left header__left--flex-center">
                 <button name='header_button_burger' class="header__item button_burger icon"></button>
-                <div class="header__item header__item--vertica-line--left header__item--align_items--center">
+                <div class="header__item header__item--vertica-line--left header__item--flex-center">
                     <a href="#" class="header__item"><img src="img/icons/logo.svg" alt="Логотип CPS" class="header__logo"></a>
                 </div>
             </div>
 
-            <div class="header__right header__right--align_items--center">
-                <div class="header__wrapper header__wrapper--align_items--center item_tablet">
+            <div class="header__right header__right--flex-center">
+                <div class="header__wrapper header__wrapper--flex-center header__wrapper--item--tablet">
                     <button name='button_contacts' class="header__item button_contacts icon"></button>
                     <button name='button_chat' class="header__item button_chat icon"></button>
                     <button name='button_profile' class="header__item button_profile icon"></button>
                 </div>
-                <div class="header__item--vertica-line--left header__wrapper--align_items--center">
+                <div class="header__item--vertica-line--left header__wrapper--flex-center">
                     <button name='button_repair' class="header__item button_repair icon"></button>
                     <button name='button_checkstatus' class="header__item button_checkstatus icon"></button>
                 </div>
@@ -34,48 +34,48 @@
     <main class="main">
         <div class="main__header">
             <h1 class="main__title">Услуги и сервисы</h1>
-            <div class="main__header_links item_PC">
-                <a href="#" class="main__header_link link">
+            <div class="main__header-links main__header-links--item--PC">
+                <a href="#" class="main__header-link link">
                     Оставить заявку<button name='button_repair' class="button_repair icon"></button>
                 </a>
-                <a href="" class="main__header_link link">
+                <a href="" class="main__header-link link">
                     Статус ремонта<button name='button_checkstatus' class="button_checkstatus icon"></button>
                 </a>
             </div>
         </div>
 
-        <div class="slide_menu">
-            <a href="#" class="slide_menu__link slide_menu__link--active link">Ремонтируемые бренды</a>
-            <a href="#" class="slide_menu__link link">Ремонтируемые устройства</a>
-            <a href="#" class="slide_menu__link link">Цены на услуги</a>
-            <a href="#" class="slide_menu__link link">Адреса сервисных центров</a>
-            <a href="#" class="slide_menu__link link">Специальные цены</a>
-            <a href="#" class="slide_menu__link link">Отзывы</a>
-        </div>
+        <nav class="slide-menu">
+            <a href="#" class="slide-menu__link slide-menu__link--active link">Ремонтируемые бренды</a>
+            <a href="#" class="slide-menu__link link">Ремонтируемые устройства</a>
+            <a href="#" class="slide-menu__link link">Цены на услуги</a>
+            <a href="#" class="slide-menu__link link">Адреса сервисных центров</a>
+            <a href="#" class="slide-menu__link link">Специальные цены</a>
+            <a href="#" class="slide-menu__link link">Отзывы</a>
+        </nav>
 
         <div class="block">
-            <div class="block__left_container">
+            <div class="block__left-container">
                 <p class="block__text">
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
                     Только у нас вы можете отремонтировать свой ноутбук Dell 
                     с официальной гарантией производителя.
                 </p>
 
-                <p class="block__text item_tablet">
+                <p class="block__text block__text--item--tablet">
                     Мы успешно работаем с 1992 года и заслужили репутацию надежного 
-                    партнера<span class="block__text item_PC">, 
+                    партнера<span class="block__text block__text--item--PC">, 
                     что подтверждает большое количество постоянных клиентов. 
                     Мы гордимся тем, что к нам обращаются по рекомендациям и, 
                     в свою очередь, советуют нас родным и близким.</span>
                 </p>
 
                 <div class="block__link">
-                    <a href="#" class="link__read_more link">Читать далее</a> <!-- Сделать иконку при помощи before -->
+                    <a href="#" class="link__read-more link">Читать далее</a>
                 </div>
             </div>
 
-            <div class="block__right_container">
-                <img src="img/cps_img.jpg" alt="Картинка CPS" class="block__cps_img">
+            <div class="block__right-container">
+                <img src="img/cps_img.jpg" alt="Картинка CPS" class="block__cps-img">
             </div>
         </div>
     </main>
