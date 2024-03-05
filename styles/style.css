@@ -196,7 +196,7 @@ body, * {
 }
 
 .link__read-more::before {
-    content: url(/img/icons/arrow-down.svg);
+    content: url('../img/icons/arrow-down.svg');
     margin: auto 15px;
     margin-left: 5px;
 }
