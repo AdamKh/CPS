@@ -32,27 +32,27 @@ button {
 }
 
 .button_burger {
-    background-image: url(../img/icons/burger.svg);
+    background-image: url('../img/icons/burger.svg');
 }
 
 .button_contacts {
-    background-image: url(../img/icons/contacts.svg);
+    background-image: url('../img/icons/contacts.svg');
 }
 
 .button_chat {
-    background-image: url(../img/icons/chat.svg);
+    background-image: url('../img/icons/chat.svg');
 }
 
 .button_profile {
-    background-image: url(../img/icons/profile.svg);
+    background-image: url('../img/icons/profile.svg');
 }
 
 .button_repair {
-    background-image: url(../img//icons/repair.svg);
+    background-image: url('../img//icons/repair.svg');
 }
 
 .button_checkstatus {
-    background-image: url(../img/icons/checkstatus.svg);
+    background-image: url('../img/icons/checkstatus.svg');
 }
 
 
